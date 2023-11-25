@@ -1,0 +1,12 @@
+{
+  "Id": "PFKModTemplate",
+  "DisplayName": "DISPLAYNAME",
+  "Author": "AUTHOR",
+  "Version": "1.0.0",
+  "ManagerVersion": "0.27.8",
+  "Requirements": [],
+  "AssemblyName": "PFKModTemplate.dll",
+  "EntryMethod": "PFKModTemplate.Main.Load",
+  "HomePage": "HOMEPAGE",
+  "Repository": "REPOSITORY"
+}

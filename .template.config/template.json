@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "various-sundry",
+  "classifications": [
+    "Common",
+    "Console"
+  ],
+  "identity": "PFKModTemplate",
+  "name": "Mod template for Pathfinder: Kingmaker",
+  "shortName": "pfkmod",
+  "sourceName": "PFKModTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            ".git/**/*",
+            "README.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "symbols": {
+    "author": {
+      "type": "parameter",
+      "defaultValue": "TODO",
+      "replaces": "AUTHOR"
+    },
+    "displayName": {
+      "type": "parameter",
+      "defaultValue": "TODO",
+      "replaces": "DISPLAYNAME"
+    },
+    "homepage": {
+      "type": "parameter",
+      "defaultValue": "TODO",
+      "replaces": "HOMEPAGE"
+    },
+    "repository": {
+      "type": "parameter",
+      "defaultValue": "TODO",
+      "replaces": "REPOSITORY"
+    }
+  }
+}
